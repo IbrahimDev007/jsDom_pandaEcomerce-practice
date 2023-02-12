@@ -79,3 +79,9 @@ for ( const img of images){
 
 
 // lets double click to backgroundColor change 
+
+document.getElementById("subscribe").addEventListener("dblclick", function() {
+
+      document.getElementById("subscribe").style.backgroundColor = "yellow";
+   
+})
